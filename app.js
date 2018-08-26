@@ -11,5 +11,5 @@ server.listen(port, function () {
 });
 
 app.get("/", function(req, res) {
-    res.send("THIS WORKS");
+    res.send("THIS WORKS!");
 });
